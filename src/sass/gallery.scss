@@ -3,8 +3,6 @@
   --secondary-bg-color: #8d2e02;
 }
 
-//var(--primery-font-family)
-
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
@@ -126,7 +124,7 @@ img {
     position: relative;
 
     flex-basis: calc(100% / 3 - 30px);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     border-radius: 15px;
     box-shadow: 0 3px 8px var(--primary-color);
@@ -159,10 +157,14 @@ img {
 }
 
 .load-more {
+  position: fixed;
+  bottom: 15px;
+
   display: block;
   height: 50px;
   width: 150px;
-  margin: 0 auto;
+  //margin: 0 auto;
+  margin-left: 575px;
   color: #000000;
   font-weight: 600;
   border-color: var(--primary-color);
